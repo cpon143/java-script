@@ -1,4 +1,4 @@
-let js = "amazing";
+/*let js = "amazing";
 if (js === "amazing")
     // alert("JavaScript is FUN!");
 
@@ -26,4 +26,11 @@ let myCurrentJob="teacher";
 let job1=("programmer");
 let job2=("teacher");
 
-console.log(myFirstJob);
+console.log(myFirstJob); */
+
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
+
+console.log(typeof true);
+console.log(typeof 84);
+console.log(typeof 'kumar');
