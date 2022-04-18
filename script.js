@@ -55,20 +55,67 @@ programmer='teacher';
 lastName='haque';
 console.log(lastName);*/
 
-/*const age=2050;
-const jonsAge=age-2012;
-const bonsAge=age-1987;
-console.log(jonsAge *2, bonsAge/3, 2**4);
-// 2**4 means 2 to the power four 2*2*2*2
+/*   Math operator    */
 
-const firstName='Jonas';
-const lastName='Lomen';
-console.log(firstName +' '+ lastName);*/
+// const age = 2050;
+// const jonsAge = age - 2012;
+// const bonsAge = age - 1987;
+// console.log(jonsAge * 2, bonsAge / 3, 2 ** 4);
+// // 2**4 means 2 to the power four 2*2*2*2
 
-let x = 5 + 10;
-x += 10;
-x *=  4;
-x ++;
-x--;
-x--;
-console.log(x);
+// const firstName = 'Jonas';
+// const lastName = 'Lomen';
+// console.log(firstName + ' ' + lastName);
+
+/*   Assignment Operator    */
+
+// let x = 5 + 10;
+// x += 10;
+// x *=  4;
+// x ++;
+// x--;
+// x--;
+// console.log(x);
+
+//comparison
+// console.log(jonsAge < bonsAge);
+// console.log(jonsAge >= 18);
+
+// const isAgeFull = jonsAge >= 18;
+
+/*const age = 2050;
+const jonsAge = age - 2012;
+const bonsAge = age - 1987;
+
+console.log(age - 2012 >= age - 1987);
+
+console.log(25 - 10 - 5);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log( x , y); */
+
+
+// codding challenge #1
+
+// #Q1
+
+let markMass = 78;
+let markHeight = 1.69;
+let johnMass = 92;
+let johnHeight = 1.95;
+
+console.log(markMass, markHeight, johnMass, johnHeight);
+
+let markBMI = johnMass / (johnHeight * johnHeight);
+let johnBMI = markMass / markHeight ** 2;
+const markHigherBmi = markBMI > johnBMI;
+
+console.log(markBMI, johnBMI, markHigherBmi);
+
+// let bmi = markMass/ markHeight ** 2 == johnMass / (johnHeight * johnHeight);
+
+// console.log(bmi);
+
+// #Q2
+
