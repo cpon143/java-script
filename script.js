@@ -100,7 +100,7 @@ console.log( x , y); */
 
 // #Q1
 
-let markMass = 78;
+/*let markMass = 78;
 let markHeight = 1.69;
 let johnMass = 92;
 let johnHeight = 1.95;
@@ -111,11 +111,24 @@ let markBMI = johnMass / (johnHeight * johnHeight);
 let johnBMI = markMass / markHeight ** 2;
 const markHigherBmi = markBMI > johnBMI;
 
-console.log(markBMI, johnBMI, markHigherBmi);
+console.log(markBMI, johnBMI, markHigherBmi);*/
 
 // let bmi = markMass/ markHeight ** 2 == johnMass / (johnHeight * johnHeight);
 
 // console.log(bmi);
 
-// #Q2
+const firstName = 'jons';
+const job = 'teacher';
+const birthYear = 1987;
+const year = 2022;
+
+// console.log("i'm" + ' ' + firstName + ' ' + 'a' + ' ' + job + ' ' + (year - birthYear) + 'years' + ' ' + 'old');
+const jonas="i'm" + ' ' + firstName + ' ' + 'a' + ' ' + job + ' ' + (year - birthYear) + 'years' + ' ' + 'old';
+console.log(jonas);
+
+const jonasNew= `i'm ${firstName} a ${job} ${year-birthYear} years old`;
+console.log(jonasNew);
+
+console.log(`Md Mazharul Haque`)
+
 
