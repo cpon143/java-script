@@ -117,7 +117,7 @@ console.log(markBMI, johnBMI, markHigherBmi);*/
 
 // console.log(bmi);
 
-const firstName = 'jons';
+/*const firstName = 'jons';
 const job = 'teacher';
 const birthYear = 1987;
 const year = 2022;
@@ -129,6 +129,56 @@ console.log(jonas);
 const jonasNew= `i'm ${firstName} a ${job} ${year-birthYear} years old`;
 console.log(jonasNew);
 
-console.log(`Md Mazharul Haque`)
+console.log(`Md Mazharul Haque`);
+
+console.log(`This \n\is \n\monkey`);
+
+console.log(`
+Md
+Mazharul
+Haque`);*/
+
+// If else
+
+/*const age = 15;
+const isToMuch = age >= 18;
+
+if (isToMuch) {
+    console.log(`Sarah try to drive 🚗`);
+}
+else {
+    const yearLeft = 18 - age;
+    console.log(`Sarah is to younger to drive wait ${yearLeft} years left `)
+}
+
+const birthYear=2012;
+let century;
+if(birthYear<=2000){
+    century=20
+    console.log(century);
+}
+else{
+    century=21;
+    console.log(century);
+}*/
+
+//#2 coding challenge
+
+let markMass = 78;
+let markHeight = 1.69;
+let johnMass = 92;
+let johnHeight = 1.95;
+
+
+let markBMI = johnMass / (johnHeight * johnHeight);
+let johnBMI = markMass / markHeight ** 2;
+
+if(markBMI>johnBMI){
+    console.log(`Mark's BMI is higher than John's!`);
+}
+else{
+    console.log(`John's BMI is higher than Mark's! ${johnBMI-markBMI}` );
+}
+
 
 
