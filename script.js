@@ -164,7 +164,7 @@ else{
 
 //#2 coding challenge
 
-let markMass = 78;
+/*let markMass = 78;
 let markHeight = 1.69;
 let johnMass = 92;
 let johnHeight = 1.95;
@@ -178,7 +178,14 @@ if(markBMI>johnBMI){
 }
 else{
     console.log(`John's BMI is higher than Mark's! ${johnBMI-markBMI}` );
-}
+}*/
 
 
+const inputYear = '1991';
+console.log(inputYear +18);
+console.log(Number(inputYear) +18);
+console.log(typeof inputYear);
+
+console.log(String(1998));
+console.log(typeof NaN);
 
