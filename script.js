@@ -181,7 +181,7 @@ else{
 }*/
 
 
-const inputYear = '1991';
+/*const inputYear = '1991';
 console.log(inputYear + 18);
 console.log(Number(inputYear) + 18);
 console.log(typeof inputYear);
@@ -199,4 +199,13 @@ n = n - 1;
 console.log(n);
 
 m = '10' - '4' - '3' - 2 + '5';
-console.log(m);
+console.log(m);*/
+
+
+//five falsy value : 0 , ' ' , undefine , null , NaN ;
+
+console.log(0);
+console.log('Awasome');
+console.log(undefined);
+console.log( );
+console.log(NaN);
