@@ -204,8 +204,31 @@ console.log(m);*/
 
 //five falsy value : 0 , ' ' , undefine , null , NaN ;
 
-console.log(0);
-console.log('Awasome');
-console.log(undefined);
-console.log( );
-console.log(NaN);
+/*console.log(Boolean(0));
+console.log(Boolean('Awasome'));
+console.log(Boolean(undefined));
+console.log(Boolean(''));
+console.log(Boolean(NaN));
+
+let money=2;
+if(money){
+    console.log('You can spent');
+}
+else{
+    console.log('You cannt spent ');
+}
+
+let height=5;
+if (height){
+    console.log('yahh height is defined');
+}
+else{
+    console.log('No not height "DEFINED"');
+}*/
+
+const age = '18';
+if (age === 18) console.log('You are adult :D(stricts)');
+if (age == 18) console.log('You are also adult:D(loose)');
+
+let Favourite = prompt("what is your favourite number?")
+console.log(Favourite);
