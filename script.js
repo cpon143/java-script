@@ -230,5 +230,47 @@ const age = '18';
 if (age === 18) console.log('You are adult :D(stricts)');
 if (age == 18) console.log('You are also adult:D(loose)');
 
-let Favourite = prompt("what is your favourite number?")
-console.log(Favourite);
+let favourite = Number(prompt("what is your favourite number?"));
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite===23){
+    console.log('yaa its 23 number');
+}
+else if(favourite===1){
+    console.log('1 is also a cool number');
+}
+else if(favourite===2){
+    console.log('2 is also a cool number');
+}
+else if(favourite===3){
+    console.log('3 is also a cool number');
+}
+else if(favourite===4){
+    console.log('4 is also a cool number');
+}
+else if(favourite===5){
+    console.log('5 is also a cool number');
+}
+else if(favourite===6){
+    console.log('6 is also a cool number');
+}
+else if(favourite===7){
+    console.log('7 is also a cool number');
+}
+else if(favourite===8){
+    console.log('8 is also a cool number');
+}
+else if(favourite===9){
+    console.log('9 is also a cool number');
+}
+else if(favourite===10){
+    console.log('10 is also a cool number');
+}
+else{
+    console.log('you not enter 1......9 number,  and also 32');
+}
+
+if (favourite!==32){
+    console.log('Why not 32?');
+}
