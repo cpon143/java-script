@@ -281,3 +281,16 @@ const hasDriverLicense=true //A
 const hasGoodVision=true//B
 
 console.log(hasDriverLicense && hasGoodVision);
+console.log(hasDriverLicense || hasGoodVision);
+console.log(!hasDriverLicense);
+
+
+// if (hasDriverLicense || hasGoodVision){
+// console.log('He has want to drive')
+// }
+// else{
+//     console.log("He hasn't want to drive")
+// }
+
+const isTired=false //c
+console.log(hasDriverLicense && hasGoodVision &&isTired);
