@@ -226,7 +226,7 @@ else{
     console.log('No not height "DEFINED"');
 }*/
 
-const age = '18';
+/*const age = '18';
 if (age === 18) console.log('You are adult :D(stricts)');
 if (age == 18) console.log('You are also adult:D(loose)');
 
@@ -273,4 +273,11 @@ else{
 
 if (favourite!==32){
     console.log('Why not 32?');
-}
+}*/
+
+// logical operator
+
+const hasDriverLicense=true //A
+const hasGoodVision=true//B
+
+console.log(hasDriverLicense && hasGoodVision);
