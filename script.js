@@ -328,22 +328,42 @@ Test data:
 § Data Bonus 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106 
 */
 
-const dolphinsAverage = ((96 + 108 + 89) / 3);
+/*const dolphinsAverage = ((96 + 108 + 89) / 3);
 console.log(dolphinsAverage);
 const koalsAverage = ((88 + 91 + 110) / 3);
 console.log(koalsAverage);
 
 if (dolphinsAverage > koalsAverage) {
-    console.log("Dolphins is the winner of the competition,");
+    console.log("Dolphins is the winner of the competition, 🏆");
 }
-else {
+else if (koalsAverage > dolphinsAverage) {
     console.log("Koalas is the winner of the competition,")
 }
-else if {
+else if (koalsAverage = dolphinsAverage) {
     console.log("Dolphins and Koalas have equal score")
 }
 
-const dolphinsMinimumAverage=((97+112+101)/3);
+const dolphinsMinimumAverage = ((97 + 112 + 101) / 3); 
 console.log(dolphinsMinimumAverage);
-const koalsMinimumAverage=((109+95+123)/3);
-console.log(koalsMinimumAverage);
+const koalsMinimumAverage = ((109 + 95 + 123) / 3);
+console.log(koalsMinimumAverage); */
+
+// Bonus 1:
+
+const dolphinsAverage = ((97 + 112 + 75) / 3);
+const koalsAverage = ((109 + 95 + 80) / 3);
+console.log(dolphinsAverage, koalsAverage);
+
+if (dolphinsAverage > koalsAverage && dolphinsAverage >= 100) {
+    console.log("Dolphins is the winner of the competition, 🏆");
+}
+else if (koalsAverage > dolphinsAverage && koalsAverage >= 100) {
+    console.log("Koalas is the winner of the competition,")
+}
+else if (koalsAverage === dolphinsAverage && koalsAverage >= 100) {
+    console.log("boath win the trophy")
+}
+else {
+    console.log('No one win the trophy 😢');
+}
+
