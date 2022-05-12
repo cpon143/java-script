@@ -1,3 +1,7 @@
+
+/*=== is strict comparision */
+
+
 /*let js = "amazing";
 if (js === "amazing")
     // alert("JavaScript is FUN!");
@@ -350,7 +354,7 @@ console.log(koalsMinimumAverage); */
 
 // Bonus 1:
 
-const dolphinsAverage = ((97 + 112 + 75) / 3);
+/*const dolphinsAverage = ((97 + 112 + 75) / 3);
 const koalsAverage = ((109 + 95 + 80) / 3);
 console.log(dolphinsAverage, koalsAverage);
 
@@ -365,5 +369,69 @@ else if (koalsAverage === dolphinsAverage && koalsAverage >= 100) {
 }
 else {
     console.log('No one win the trophy 😢');
+}*/
+
+
+/*************switch********************/
+
+/*const day = 'friday';
+switch (day) {
+    case 'monday':
+        console.log('today monday');
+        console.log('it is monday');
+        break;
+    case 'tuesday':
+        console.log('today tuesday');
+        break;
+    case 'friday':
+        console.log('today namaj time');
+        console.log('in mosque');
+        break;
+    case 'starday':
+        console.log('today starday');
+        break;
+}*/
+
+/*const a = 5;
+
+if (a == 1) {
+    console.log('a');
 }
+else if (a == 2) {
+    console.log('b');
+}
+else if (a == 3) {
+    console.log('c');
+}
+else if (a == 5) {
+    console.log('d');
+}
+
+const number = 8;
+switch (number) {
+    case '1':
+        console.log(1);
+    case '2':
+        console.log('2');
+    case '8':
+        console.log('it is 8');
+        console.log('2');
+        break;
+    case '9':
+        console.log('it is 8');
+        console.log('2');
+    case '7':
+        console.log('it is 8');
+}*/
+
+// const age = 15;
+
+// const drink = age >= 18 ? 'wine' : 'water ';
+// console.log(drink);
+
+// console.log(`I like to drink ${age >= 18 ? 'wine' : 'water'}`);
+
+
+const bill = 275;
+const tip = bill<= 300 && bill>= 50 ? 
 
